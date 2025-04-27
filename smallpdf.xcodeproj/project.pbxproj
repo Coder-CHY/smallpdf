@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BDA485B2DB0FBDE005CD930 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6BDA485A2DB0FBDE005CD930 /* GoogleSignIn */; };
+		6BDA485D2DB0FBDE005CD930 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6BDA485C2DB0FBDE005CD930 /* GoogleSignInSwift */; };
+		6BDA48632DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA48622DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist */; };
+		6BDA48642DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA48622DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist */; };
+		6BDA48652DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BDA48622DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B623C852D917D7E00E7B450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B623C662D917D7C00E7B450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B623C6D2D917D7C00E7B450;
+			remoteInfo = smallpdf;
+		};
+		6B623C8F2D917D7E00E7B450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B623C662D917D7C00E7B450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B623C6D2D917D7C00E7B450;
+			remoteInfo = smallpdf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B623C6E2D917D7C00E7B450 /* smallpdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallpdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B623C842D917D7E00E7B450 /* smallpdfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallpdfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B623C8E2D917D7E00E7B450 /* smallpdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallpdfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDA48622DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B623C962D917D7E00E7B450 /* Exceptions for "smallpdf" folder in "smallpdf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6B623C6D2D917D7C00E7B450 /* smallpdf */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B623C702D917D7C00E7B450 /* smallpdf */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6B623C962D917D7E00E7B450 /* Exceptions for "smallpdf" folder in "smallpdf" target */,
+			);
+			path = smallpdf;
+			sourceTree = "<group>";
+		};
+		6B623C872D917D7E00E7B450 /* smallpdfTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = smallpdfTests;
+			sourceTree = "<group>";
+		};
+		6B623C912D917D7E00E7B450 /* smallpdfUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = smallpdfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B623C6B2D917D7C00E7B450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA485B2DB0FBDE005CD930 /* GoogleSignIn in Frameworks */,
+				6BDA485D2DB0FBDE005CD930 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C812D917D7E00E7B450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C8B2D917D7E00E7B450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B623C652D917D7C00E7B450 = {
+			isa = PBXGroup;
+			children = (
+				6BDA48622DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist */,
+				6B623C702D917D7C00E7B450 /* smallpdf */,
+				6B623C872D917D7E00E7B450 /* smallpdfTests */,
+				6B623C912D917D7E00E7B450 /* smallpdfUITests */,
+				6BA328672DA6A4DC00087F59 /* Frameworks */,
+				6B623C6F2D917D7C00E7B450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B623C6F2D917D7C00E7B450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B623C6E2D917D7C00E7B450 /* smallpdf.app */,
+				6B623C842D917D7E00E7B450 /* smallpdfTests.xctest */,
+				6B623C8E2D917D7E00E7B450 /* smallpdfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA328672DA6A4DC00087F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B623C6D2D917D7C00E7B450 /* smallpdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B623C972D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdf" */;
+			buildPhases = (
+				6B623C6A2D917D7C00E7B450 /* Sources */,
+				6B623C6B2D917D7C00E7B450 /* Frameworks */,
+				6B623C6C2D917D7C00E7B450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B623C702D917D7C00E7B450 /* smallpdf */,
+			);
+			name = smallpdf;
+			packageProductDependencies = (
+				6BDA485A2DB0FBDE005CD930 /* GoogleSignIn */,
+				6BDA485C2DB0FBDE005CD930 /* GoogleSignInSwift */,
+			);
+			productName = smallpdf;
+			productReference = 6B623C6E2D917D7C00E7B450 /* smallpdf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B623C832D917D7E00E7B450 /* smallpdfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B623C9C2D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdfTests" */;
+			buildPhases = (
+				6B623C802D917D7E00E7B450 /* Sources */,
+				6B623C812D917D7E00E7B450 /* Frameworks */,
+				6B623C822D917D7E00E7B450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B623C862D917D7E00E7B450 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B623C872D917D7E00E7B450 /* smallpdfTests */,
+			);
+			name = smallpdfTests;
+			packageProductDependencies = (
+			);
+			productName = smallpdfTests;
+			productReference = 6B623C842D917D7E00E7B450 /* smallpdfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B623C8D2D917D7E00E7B450 /* smallpdfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B623C9F2D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdfUITests" */;
+			buildPhases = (
+				6B623C8A2D917D7E00E7B450 /* Sources */,
+				6B623C8B2D917D7E00E7B450 /* Frameworks */,
+				6B623C8C2D917D7E00E7B450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B623C902D917D7E00E7B450 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B623C912D917D7E00E7B450 /* smallpdfUITests */,
+			);
+			name = smallpdfUITests;
+			packageProductDependencies = (
+			);
+			productName = smallpdfUITests;
+			productReference = 6B623C8E2D917D7E00E7B450 /* smallpdfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B623C662D917D7C00E7B450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6B623C6D2D917D7C00E7B450 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6B623C832D917D7E00E7B450 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6B623C6D2D917D7C00E7B450;
+					};
+					6B623C8D2D917D7E00E7B450 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6B623C6D2D917D7C00E7B450;
+					};
+				};
+			};
+			buildConfigurationList = 6B623C692D917D7C00E7B450 /* Build configuration list for PBXProject "smallpdf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B623C652D917D7C00E7B450;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6BDA48592DB0FBDE005CD930 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B623C6F2D917D7C00E7B450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B623C6D2D917D7C00E7B450 /* smallpdf */,
+				6B623C832D917D7E00E7B450 /* smallpdfTests */,
+				6B623C8D2D917D7E00E7B450 /* smallpdfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B623C6C2D917D7C00E7B450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA48632DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C822D917D7E00E7B450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA48652DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C8C2D917D7E00E7B450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA48642DB12699005CD930 /* client_1077119177326-s2qvv54o2caq6jecpnidj03s7okoninq.apps.googleusercontent.com.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B623C6A2D917D7C00E7B450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C802D917D7E00E7B450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B623C8A2D917D7E00E7B450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B623C862D917D7E00E7B450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B623C6D2D917D7C00E7B450 /* smallpdf */;
+			targetProxy = 6B623C852D917D7E00E7B450 /* PBXContainerItemProxy */;
+		};
+		6B623C902D917D7E00E7B450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B623C6D2D917D7C00E7B450 /* smallpdf */;
+			targetProxy = 6B623C8F2D917D7E00E7B450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B623C982D917D7E00E7B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smallpdf/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan documents";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app requires access to the photo library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B623C992D917D7E00E7B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smallpdf/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan documents";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app requires access to the photo library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B623C9A2D917D7E00E7B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B623C9B2D917D7E00E7B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B623C9D2D917D7E00E7B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallpdf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smallpdf";
+			};
+			name = Debug;
+		};
+		6B623C9E2D917D7E00E7B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallpdf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smallpdf";
+			};
+			name = Release;
+		};
+		6B623CA02D917D7E00E7B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smallpdf;
+			};
+			name = Debug;
+		};
+		6B623CA12D917D7E00E7B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.play-ground.smallpdfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smallpdf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B623C692D917D7C00E7B450 /* Build configuration list for PBXProject "smallpdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B623C9A2D917D7E00E7B450 /* Debug */,
+				6B623C9B2D917D7E00E7B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B623C972D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B623C982D917D7E00E7B450 /* Debug */,
+				6B623C992D917D7E00E7B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B623C9C2D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B623C9D2D917D7E00E7B450 /* Debug */,
+				6B623C9E2D917D7E00E7B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B623C9F2D917D7E00E7B450 /* Build configuration list for PBXNativeTarget "smallpdfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B623CA02D917D7E00E7B450 /* Debug */,
+				6B623CA12D917D7E00E7B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BDA48592DB0FBDE005CD930 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BDA485A2DB0FBDE005CD930 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BDA48592DB0FBDE005CD930 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		6BDA485C2DB0FBDE005CD930 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BDA48592DB0FBDE005CD930 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6B623C662D917D7C00E7B450 /* Project object */;
+}
